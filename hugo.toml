@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'es-ve'
+title = 'My Site of Testing'
+theme = "tale"
+
+[menu]
+[[ menu.main ]]
+        identifier = "contacto"
+        name = "contacto"
+        url ="/contacto/"
+        weight = 0
+    [[ menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url ="/posts/"
+        weight = 0
