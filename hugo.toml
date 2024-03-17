@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mi-sitio-web-de-ejemplo.github.io/'
 languageCode = 'es-ve'
 title = 'My Site of Testing'
 theme = "tale"
