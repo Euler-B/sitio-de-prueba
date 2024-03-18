@@ -3,14 +3,20 @@ languageCode = 'es-ve'
 title = 'My Site of Testing'
 theme = "tale"
 
+[Author]
+name = "Eduardo Bravo"
+
 [menu]
 [[ menu.main ]]
         identifier = "contacto"
-        name = "contacto"
+        name = "Contacto"
         url ="/contacto/"
         weight = 0
     [[ menu.main]]
         identifier = "posts"
-        name = "posts"
+        name = "Posts"
         url ="/posts/"
         weight = 0
+
+[params]
+    css = ["css/estilos.css"]
