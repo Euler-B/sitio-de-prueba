@@ -27,6 +27,7 @@ body {
   }
 
   .indexhero h1 {
+    font-size: 21px;
     padding: 23px;
     text-align: center;
     color: #f5f5f5;
@@ -42,4 +43,15 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .indexhero {
+      max-width: 100%;
+    }
   }
